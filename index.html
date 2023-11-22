@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoring Items Database</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div id="inventory-left-container">
+            <div class="wrapthecontainer">
+                <div class="inventory-container">
+                    <label for="name-el">Product</label><br>
+                    <input type="text" id="name-el"><br><br>
+                    <label for="quantity-el">Qty:</label><br>
+                    <input type="text" id="quantity-el"><br><br>
+                    <label for="price-el">Price</label><br>
+                    <input type="text" id="price-el">
+                </div>
+                <div class="total-container">
+                    <label for="total-el">Total</label>
+                    <p id="total-el">0</p>
+                </div>
+            </div>
+            <div id="button-el">ADD</div>
+        </div>
+        <div id="inventory-right-container">
+            <h2 class="heading2">Items Database</h2>
+            <table id="tr-el">
+                <tr>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+                <!-- <tr>
+
+                </tr> -->
+            </table>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
